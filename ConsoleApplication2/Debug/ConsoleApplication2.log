@@ -1,0 +1,20 @@
+﻿Build started 2016/4/14 1:57:51.
+     1>Project "D:\SYSU\Grade3\Term3\network_security\lab\lab4\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\CryptoPP\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt lab4.cpp
+         lab4.cpp
+     1>c:\program files\cryptopp\include\misc.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\cryptopp\include\smartptr.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SYSU\Grade3\Term3\network_security\lab\lab4\ConsoleApplication2\Debug\ConsoleApplication2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\CryptoPP\lib\debug" /LIBPATH:"C:\Program Files\CryptoPP\lib\release" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\SYSU\Grade3\Term3\network_security\lab\lab4\ConsoleApplication2\Debug\ConsoleApplication2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SYSU\Grade3\Term3\network_security\lab\lab4\ConsoleApplication2\Debug\ConsoleApplication2.lib" /MACHINE:X86 Debug\lab4.obj
+         cryptlib.lib(cryptlib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>lab4.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         Generating code
+         Finished generating code
+         ConsoleApplication2.vcxproj -> D:\SYSU\Grade3\Term3\network_security\lab\lab4\ConsoleApplication2\Debug\ConsoleApplication2.exe
+     1>Done Building Project "D:\SYSU\Grade3\Term3\network_security\lab\lab4\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.62
